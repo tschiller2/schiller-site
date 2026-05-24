@@ -256,6 +256,60 @@ footer {
   font-size: 0.9rem;
 }
 
+.legal-links {
+  margin-top: 0.4rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.legal-links a {
+  color: var(--brand-2);
+  font-weight: 700;
+}
+
+.legal-shell {
+  width: min(900px, 92vw);
+  margin: 1.5rem auto 2.2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.legal-shell h1,
+.legal-shell h2 {
+  margin-top: 0;
+}
+
+.legal-shell h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.legal-shell p,
+.legal-shell li {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.legal-shell ul {
+  margin: 0.2rem 0 1.2rem;
+}
+
+.legal-nav {
+  width: min(900px, 92vw);
+  margin: 1rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.legal-nav .brand {
+  color: var(--text);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(14px);

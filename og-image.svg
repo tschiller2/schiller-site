@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Schiller.ca</title>
+  <desc id="desc">Schiller.ca brand image highlighting Scan Pro Receipts and practical workflow tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#edf4ff" />
+      <stop offset="55%" stop-color="#f9fbff" />
+      <stop offset="100%" stop-color="#eef8f4" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f9d74" />
+      <stop offset="100%" stop-color="#177dcf" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1080" cy="-20" r="220" fill="#177dcf" opacity="0.16" />
+  <circle cx="120" cy="650" r="210" fill="#0f9d74" opacity="0.14" />
+
+  <g transform="translate(86 96)">
+    <text x="0" y="0" font-family="Sora, Manrope, sans-serif" font-size="58" font-weight="800" fill="#17232f">schiller.ca</text>
+    <text x="0" y="56" font-family="Manrope, sans-serif" font-size="30" font-weight="700" fill="#4b6073">Practical tools built for real workflows</text>
+
+    <rect x="0" y="106" width="900" height="290" rx="24" fill="#ffffff" stroke="#dbe7f4" />
+
+    <text x="42" y="172" font-family="Sora, Manrope, sans-serif" font-size="44" font-weight="800" fill="#17232f">Scan Pro Receipts</text>
+    <text x="42" y="218" font-family="Manrope, sans-serif" font-size="28" font-weight="600" fill="#4b6073">OCR capture • Fiscal workflow control • Office-ready reporting</text>
+
+    <rect x="42" y="258" width="360" height="68" rx="34" fill="url(#accent)" />
+    <text x="78" y="301" font-family="Manrope, sans-serif" font-size="28" font-weight="800" fill="#ffffff">www.schiller.ca</text>
+  </g>
+</svg>
