@@ -201,6 +201,13 @@ li {
   box-shadow: 0 10px 22px rgba(23, 125, 207, 0.2);
 }
 
+@media (hover: none) {
+  .btn:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
 .btn-ghost {
   color: var(--text);
   border-color: var(--stroke);
@@ -323,10 +330,22 @@ footer {
 
 @media (max-width: 900px) {
   nav {
-    display: none;
+    display: flex;
+    width: 100%;
+    order: 3;
+    gap: 0.8rem;
+    overflow-x: auto;
+    padding-bottom: 0.2rem;
+    scrollbar-width: thin;
+  }
+
+  nav a {
+    white-space: nowrap;
   }
 
   .site-header {
+    flex-wrap: wrap;
+    align-items: flex-start;
     padding: 0.75rem 0.85rem;
   }
 
@@ -338,5 +357,35 @@ footer {
   .hero,
   .section {
     padding: 1.15rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .bg-shape {
+    filter: blur(38px);
+    opacity: 0.58;
+  }
+
+  .site-header {
+    backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.92);
+  }
+
+  .site-header .btn-small {
+    margin-left: auto;
+  }
+
+  .hero-actions .btn,
+  .inline-actions .btn {
+    width: 100%;
+  }
+
+  .legal-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .legal-nav .inline-actions {
+    width: 100%;
   }
 }
